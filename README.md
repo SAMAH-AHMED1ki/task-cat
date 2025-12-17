@@ -18,14 +18,16 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-Q2 Solution :
+#Q2 Solution :
 
 1.  Mean is 5.8 
     Mode is 2 , 3 
     Median is 5 
     variance and standard deviation is high because the data is spreed out from 1 to 14
 
+
 2.  If it is population the mean is the same , the variance and standard would change , we would divide by N in population ,In sample we divide by N-1 to get more accurate 
+
 
 3.  It is right skewed distribution because it has a long tail on the right side , In the right skewed, the measures are pulled in the orded mean>median>mode
 
@@ -41,7 +43,7 @@ Q3 Solution :
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-Q4 Solution :
+#Q4 Solution :
 
 1. True , False
 
@@ -55,7 +57,9 @@ Q4 Solution :
 
 6. output is b)
 
-7. Raise : To manual raise an error whenever you want , you decide what type of error and when it happens . Assert : To check if a condition is true while running the program ,if the condition is true the program continues, if the condition is false it raise an assertionError ans stops the program . Returning error codes : The function or program returns a nunber to indicate if an error occured , No excaption is raised , just value
+7. Raise : To manual raise an error whenever you want , you decide what type of error and when it happens Assert : To check if a condition is true while running the program ,if the condition is true the program continues, if the condition is false it raise an assertionError ans stops the program .
+
+ Returning error codes : The function or program returns a nunber to indicate if an error occured , No excaption is raised , just value
 Do not use assert to check user input , only for internal debugs
 
 8. Encapsulation , Inheritance , polymorphism and Abstraction
@@ -63,28 +67,44 @@ Do not use assert to check user input , only for internal debugs
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Problem Solving :
+#Problem Solving :
 
 
 n = 8
+
 k = 5
+
 count = 0
+
 scores =[ 10,9,8,7,7,7,5,5 ]
+
 goal = scores[k-1] 
+
 for s in scores : 
+ 
  if s >= goal and s > 0 :
+ 
   count += 1
+
 print(count)
 
 -------------------------------
 n = 4 
+
 k = 2
+
 count = 0
+
 scores = [ 0, 0, 0, 0] 
+
 goal = scores[k-1]
+
 for s in scores :
- if s >= goal and s > 0 :
+
+if s >= goal and s > 0 :
+  
   count += 1
+
 print(count)
 
  ----------------------------------
