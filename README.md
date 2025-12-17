@@ -63,3 +63,28 @@ Do not use assert to check user input , only for internal debugs
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Problem Solving :
+
+
+n = 8
+k = 5
+count = 0
+scores =[ 10,9,8,7,7,7,5,5 ]
+goal = scores[k-1] 
+for s in scores : 
+ if s >= goal and s > 0 :
+  count += 1
+print(count)
+
+-------------------------------
+n = 4 
+k = 2
+count = 0
+scores = [ 0, 0, 0, 0] 
+goal = scores[k-1]
+for s in scores :
+ if s >= goal and s > 0 :
+  count += 1
+print(count)
+
+ ----------------------------------
