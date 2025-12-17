@@ -84,7 +84,7 @@ for s in scores :
  
   if s >= goal and s > 0 :
  
-   count += 1
+    count += 1
 
 print(count)
 
