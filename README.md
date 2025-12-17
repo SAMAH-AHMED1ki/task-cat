@@ -1,2 +1,8 @@
-# task-cat
-Data science task
+Q1 : Desecriptive is used to summarize the characteristics of a dataset , such as findind the average or the most frequent value .Inferential allows us to make predictions about a large population based on smaller sample of data .
+Q2 : Confidence Intravel provides a range of values where we expect the true population parameter to fall . A 95% Confidence Interval means that if we repeat the same study 100 times , the true result will be in this range in 95 of those cases 
+Q3 : Correlation is a statistical indicator of the relationship between two variables , when one variable changes , so does the other . Casation means that the changes in one variable brings about in the other , there is a cause and effect relationship between variables . It is important to distinguish between them because two things can be related without one causing the other .
+Q4 : Probability Distribution is mathematical function that shows the probability of outcomes . Discrete examples : Binomial and poisson distributions , Continuous examples : Normal ( gaussain ) and exponential distribution .
+Q5 : Population is the entire group that we want to draw conclusion about , Sample is the specific group of the population that you will collect data from . We can calculate the mean and median for both groups.
+Q6 : Histogram is a graph that shows you the distribution of data points across a continuous range of numerical values , it shows distribution shape ( symmetric , skewed ) , idenifies outliers and center tendency.
+Q7 : Range gives you the spreed of the whole data set and measures the difference between the minimum value and maximum value  , The interquarlity range gives you the spreed of the middle half of the a data set and less affected by extreme values .
+Q8 : A frequency distribution is a way to organize data and see how many times each value occurs in a dataset , it is important because, it simplifies complex data set by organizing them in tables or histograms and helps identify patterns , trends and outliers in data . 
