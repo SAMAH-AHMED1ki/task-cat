@@ -82,9 +82,9 @@ goal = scores[k-1]
 
 for s in scores : 
  
- if s >= goal and s > 0 :
+  if s >= goal and s > 0 :
  
-  count += 1
+   count += 1
 
 print(count)
 
@@ -101,9 +101,9 @@ goal = scores[k-1]
 
 for s in scores :
 
-if s >= goal and s > 0 :
+  if s >= goal and s > 0 :
   
-  count += 1
+    count += 1
 
 print(count)
 
